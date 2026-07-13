@@ -131,8 +131,6 @@ All source lists live in [`src/config/feeds.ts`](src/config/feeds.ts) and the [`
 
 See [LICENSE](LICENSE) for the full text and copyright notices.
 
-Modifications: Copyright (C) 2026 HANAN TRADE — [youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE)
-
 ---
 
 <p align="center">
