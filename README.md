@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![YouTube](https://img.shields.io/badge/YouTube-HANAN%20TRADE-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@HANANTRADE)
 
-> Customized build of the open-source [World Monitor](https://github.com/koala73/worldmonitor) project (AGPL-3.0), rebranded and streamlined for **HANAN TRADE**.
+> Real-time intelligence and market monitoring, built and maintained for **HANAN TRADE**.
 > Follow on YouTube: **[youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE)**
 
 ---
@@ -24,15 +24,6 @@
 - **Native desktop app** (Tauri 2) for Windows, macOS, and Linux
 - **25 languages** with native-language feeds and RTL support
 
-### HANAN TRADE customizations
-
-This build differs from upstream World Monitor:
-
-- Rebranded UI: header, footer, browser title, meta tags, and settings all read **HANAN TRADE Monitor**
-- Community links point to the **[HANAN TRADE YouTube channel](https://www.youtube.com/@HANANTRADE)** instead of Discord
-- Pro/paywall surfaces removed: no upgrade banners, no locked "Sign in to unlock" panels, no API-Keys settings tab, no sign-in buttons
-- Footer/header external links and personal credits removed for a cleaner interface
-
 ---
 
 ## Support Status
@@ -42,9 +33,8 @@ This build differs from upstream World Monitor:
 | Local development (`npm run dev`) | Supported | Primary way to run this build |
 | Self-hosted deployment (Vercel / Docker / static) | Supported | See `SELF_HOSTING.md` in this repo |
 | Desktop binaries (Tauri 2) | Buildable | `npm run desktop:build:full` — not distributed as releases here |
-| Upstream public deployments (`worldmonitor.app` and variants) | Not this repo | Operated by the upstream project |
 
-This is a personal customized build maintained by HANAN TRADE. For upstream fixes and new features, see the [original project](https://github.com/koala73/worldmonitor).
+Maintained by **HANAN TRADE** — [youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE).
 
 ---
 
@@ -97,17 +87,12 @@ npm run build:full     # Production build (full variant)
 
 The codebase ships agent- and script-friendly interfaces alongside the browser UI:
 
-- **MCP server** — Model Context Protocol server code included; the upstream public endpoint is `https://worldmonitor.app/mcp` (Streamable HTTP)
+- **MCP server** — Model Context Protocol server (Streamable HTTP) included, exposed at `/mcp` on your deployment
 - **REST API** — OpenAPI 3 spec in [`docs/api/`](docs/api/), served at `/openapi.yaml` on any deployment
-- **CLI** — a command-line client in [`cli/`](cli/):
-
-  ```sh
-  npx worldmonitor tools    # list every MCP tool (no key needed)
-  ```
-
+- **CLI** — a command-line client in [`cli/`](cli/) for querying MCP tools from the terminal
 - **SDKs** — zero-dependency client libraries in [`sdk/`](sdk/) for **Python**, **Ruby**, and **Go**
 
-Note: the hosted API endpoints above are operated by the upstream World Monitor project. If you self-host this build, point clients at your own deployment.
+When self-hosting, point clients at your own deployment URL.
 
 ---
 
@@ -135,7 +120,7 @@ All source lists live in [`src/config/feeds.ts`](src/config/feeds.ts) and the [`
 
 ## License
 
-**AGPL-3.0-only** — same license as the upstream project this build derives from.
+**AGPL-3.0-only**
 
 | Use Case | Allowed? |
 |----------|----------|
@@ -144,10 +129,9 @@ All source lists live in [`src/config/feeds.ts`](src/config/feeds.ts) and the [`
 | Fork and modify | Yes — share source under AGPL-3.0-only when required |
 | Commercial use / SaaS | Yes, when you comply with AGPL copyleft and source-availability terms |
 
-See [LICENSE](LICENSE) for the full text.
+See [LICENSE](LICENSE) for the full text and copyright notices.
 
-- Original work: Copyright (C) 2024–2026 [Elie Habib](https://github.com/koala73) — [World Monitor](https://github.com/koala73/worldmonitor)
-- Modifications: Copyright (C) 2026 HANAN TRADE — [youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE)
+Modifications: Copyright (C) 2026 HANAN TRADE — [youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE)
 
 ---
 
