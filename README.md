@@ -9,6 +9,8 @@
 > Real-time intelligence and market monitoring, built and maintained for **HANAN TRADE**.
 > Follow on YouTube: **[youtube.com/@HANANTRADE](https://www.youtube.com/@HANANTRADE)**
 
+![HANAN TRADE Monitor Dashboard](docs/images/hanan-trade-monitor.png)
+
 ---
 
 ## What It Does
