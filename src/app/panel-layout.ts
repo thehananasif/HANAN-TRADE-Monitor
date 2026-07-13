@@ -687,7 +687,7 @@ export class PanelLayoutManager implements AppModule {
       case PanelGateReason.ANONYMOUS:
         return () => this.ctx.authModal?.open();
       case PanelGateReason.FREE_TIER:
-        return () => window.open('https://worldmonitor.app/pro', '_blank', 'noopener,noreferrer');
+        return () => {};
       default:
         return () => {};
     }
@@ -732,7 +732,7 @@ export class PanelLayoutManager implements AppModule {
         const vHref = (v: string, prod: string) => local || SITE_VARIANT === v ? '#' : prod;
         const vTarget = (v: string) => !local && SITE_VARIANT !== v && inIframe ? 'target="_blank" rel="noopener"' : '';
         return `
-            <a href="${vHref('full', 'https://worldmonitor.app/dashboard')}"
+            <a href="${vHref('full', '#')}"
                class="variant-option ${SITE_VARIANT === 'full' ? 'active' : ''}"
                data-variant="full"
                ${vTarget('full')}
@@ -741,7 +741,7 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.world')}</span>
             </a>
             <span class="variant-divider"></span>
-            <a href="${vHref('tech', 'https://tech.worldmonitor.app')}"
+            <a href="${vHref('tech', '#')}"
                class="variant-option ${SITE_VARIANT === 'tech' ? 'active' : ''}"
                data-variant="tech"
                ${vTarget('tech')}
@@ -750,7 +750,7 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.tech')}</span>
             </a>
             <span class="variant-divider"></span>
-            <a href="${vHref('finance', 'https://finance.worldmonitor.app')}"
+            <a href="${vHref('finance', '#')}"
                class="variant-option ${SITE_VARIANT === 'finance' ? 'active' : ''}"
                data-variant="finance"
                ${vTarget('finance')}
@@ -759,7 +759,7 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.finance')}</span>
             </a>
             <span class="variant-divider"></span>
-            <a href="${vHref('commodity', 'https://commodity.worldmonitor.app')}"
+            <a href="${vHref('commodity', '#')}"
                class="variant-option ${SITE_VARIANT === 'commodity' ? 'active' : ''}"
                data-variant="commodity"
                ${vTarget('commodity')}
@@ -768,7 +768,7 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.commodity')}</span>
             </a>
             <span class="variant-divider"></span>
-            <a href="${vHref('energy', 'https://energy.worldmonitor.app')}"
+            <a href="${vHref('energy', '#')}"
                class="variant-option ${SITE_VARIANT === 'energy' ? 'active' : ''}"
                data-variant="energy"
                ${vTarget('energy')}
@@ -777,7 +777,7 @@ export class PanelLayoutManager implements AppModule {
               <span class="variant-label">${t('header.energy')}</span>
             </a>
             <span class="variant-divider"></span>
-            <a href="${vHref('happy', 'https://happy.worldmonitor.app')}"
+            <a href="${vHref('happy', '#')}"
                class="variant-option ${SITE_VARIANT === 'happy' ? 'active' : ''}"
                data-variant="happy"
                ${vTarget('happy')}

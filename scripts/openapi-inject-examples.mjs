@@ -405,7 +405,7 @@ function stringExample(name, schema = {}, context = {}) {
   if (key.includes('assetid')) return constrainedString('asset-example-1', schema);
   if (key.includes('vessel') || key.includes('mmsi')) return constrainedString('123456789', schema);
   if (key.includes('ticker') || key.includes('symbol')) return constrainedString('AAPL', schema);
-  if (key.includes('fullname')) return constrainedString('koala73/worldmonitor', schema);
+  if (key.includes('fullname')) return constrainedString('thehananasif/HANAN-TRADE-Monitor', schema);
   if (key.includes('provider')) return constrainedString('worldmonitor', schema);
   if (description.includes('iata')) return constrainedString(key.includes('destination') || key.includes('arrival') ? 'LHR' : 'JFK', schema);
   if (description.includes('iso 4217') || key.includes('currency')) return constrainedString('USD', schema);

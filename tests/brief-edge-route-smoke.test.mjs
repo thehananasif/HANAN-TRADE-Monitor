@@ -239,7 +239,7 @@ describe('assertBriefEnvelope is shared between renderer and preview', () => {
       version: 2,
       issuedAt: Date.now(),
       data: {
-        user: { name: 'Elie', tz: 'UTC' },
+        user: { name: 'Hanan', tz: 'UTC' },
         issue: '18.04',
         date: '2026-04-18',
         dateLong: '18 April 2026',

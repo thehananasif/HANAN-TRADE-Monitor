@@ -37,8 +37,8 @@ dependencies = []
 [project.urls]
 Homepage = "https://worldmonitor.app"
 Documentation = "https://www.worldmonitor.app/docs/sdks"
-Repository = "https://github.com/koala73/worldmonitor"
-Issues = "https://github.com/koala73/worldmonitor/issues"
+Repository = "https://github.com/thehananasif/HANAN-TRADE-Monitor"
+Issues = "https://github.com/thehananasif/HANAN-TRADE-Monitor/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/worldmonitor_sdk"]

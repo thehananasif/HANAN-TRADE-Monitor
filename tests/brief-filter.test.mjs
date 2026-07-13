@@ -396,7 +396,7 @@ describe('assembleStubbedBriefEnvelope', () => {
       sensitivity: 'all',
     });
     return {
-      user: { name: 'Elie', tz: 'UTC' },
+      user: { name: 'Hanan', tz: 'UTC' },
       stories,
       issueDate: '2026-04-18',
       dateLong: '18 April 2026',

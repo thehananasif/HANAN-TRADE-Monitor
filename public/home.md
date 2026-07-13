@@ -35,4 +35,4 @@ Open-source (AGPL-3.0), used by 2M+ people across 190+ countries, as featured in
 ## Documentation
 
 - [Product & API docs](https://www.worldmonitor.app/docs/documentation)
-- [Pricing](https://www.worldmonitor.app/pro) · [GitHub](https://github.com/koala73/worldmonitor)
+- [Pricing](https://www.worldmonitor.app/pro) · [GitHub](https://github.com/thehananasif/HANAN-TRADE-Monitor)

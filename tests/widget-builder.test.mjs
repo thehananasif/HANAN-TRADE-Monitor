@@ -1338,8 +1338,8 @@ describe('PRO widget — store and sanitizer', () => {
     assert.equal(matchesAllowedTeam('worldmonitor-git-feature-eliewm.vercel.app.evil.com'), false);
     assert.equal(matchesAllowedTeam('worldmonitor-feature-xeliewm.vercel.app'), false);
     assert.equal(matchesAllowedTeam('evilworldmonitor.app'), false);
-    // The retired personal scope (worldmonitor-*-elie-<hash>) must no longer match.
-    assert.equal(matchesAllowedTeam('worldmonitor-feature-elie-abc123.vercel.app'), false);
+    // The retired personal scope (worldmonitor-*-user-<hash>) must no longer match.
+    assert.equal(matchesAllowedTeam('worldmonitor-feature-user-abc123.vercel.app'), false);
     // A teammate slug added to the list must extend coverage WITHOUT
     // matching look-alike teams whose slug merely starts with the same
     // letters.

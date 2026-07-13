@@ -27,11 +27,11 @@ Reach for World Monitor when a task needs live, correlated, machine-readable glo
 - **Docs MCP server:** `https://www.worldmonitor.app/docs/mcp` — Streamable HTTP, public (no auth); search-and-retrieval tools over the documentation. Use it for "how do I…" questions about the platform; use the product MCP above for live data.
 - **REST API:** base `https://api.worldmonitor.app`; OpenAPI spec at https://worldmonitor.app/openapi.yaml; same `X-WorldMonitor-Key` header.
 - **CLI:** `npx worldmonitor tools` lists every tool (public, no key); `npm install -g worldmonitor` installs the `worldmonitor` command. A zero-dependency, MCP-first client for the tools and REST API above — pass `--api-key` for data calls. https://www.npmjs.com/package/worldmonitor
-- **SDKs:** official zero-dependency client libraries — Python `pip install worldmonitor-sdk` (https://pypi.org/project/worldmonitor-sdk/), Ruby `gem install worldmonitor` (https://rubygems.org/gems/worldmonitor), Go `go get github.com/koala73/worldmonitor/sdk/go` (https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go), JavaScript via the npm package above. Guide: https://www.worldmonitor.app/docs/sdks
-- **Agent Skills:** discovery manifest at https://worldmonitor.app/.well-known/agent-skills/index.json · install via `npx skills add koala73/worldmonitor` (https://skills.sh/koala73/worldmonitor)
+- **SDKs:** official zero-dependency client libraries — Python `pip install worldmonitor-sdk` (https://pypi.org/project/worldmonitor-sdk/), Ruby `gem install worldmonitor` (https://rubygems.org/gems/worldmonitor), Go `go get github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go` (https://pkg.go.dev/github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go), JavaScript via the npm package above. Guide: https://www.worldmonitor.app/docs/sdks
+- **Agent Skills:** discovery manifest at https://worldmonitor.app/.well-known/agent-skills/index.json · install via `npx skills add thehananasif/HANAN-TRADE-Monitor` (https://skills.sh/thehananasif/HANAN-TRADE-Monitor)
 - **Keys, plans & limits:** https://worldmonitor.app/pricing.md (markdown) · live JSON catalog `GET https://www.worldmonitor.app/api/product-catalog` (public, no key) · auth matrix https://www.worldmonitor.app/docs/usage-auth · rate limits https://www.worldmonitor.app/docs/usage-rate-limits.md · issue a key at https://worldmonitor.app/pro
 - **Accounts & sign-up:** free dashboard needs NO account; Pro/API accounts are created in a browser (Clerk sign-up at https://worldmonitor.app/pro). Guide: https://www.worldmonitor.app/docs/accounts.md
-- **Support & contact:** https://worldmonitor.app/support.md — support@worldmonitor.app (general) · enterprise@worldmonitor.app (sales) · status https://status.worldmonitor.app · issues https://github.com/koala73/worldmonitor/issues
+- **Support & contact:** https://worldmonitor.app/support.md — support@worldmonitor.app (general) · enterprise@worldmonitor.app (sales) · status https://status.worldmonitor.app · issues https://github.com/thehananasif/HANAN-TRADE-Monitor/issues
 - **User-Agent policy:** always send a descriptive `User-Agent` (e.g. `mytool/1.0 (+https://yoursite.example)`). Default HTTP-library UAs (`curl/*`, `python-requests/*`, empty/short strings) may be challenged with 403 by the edge firewall — a 403 does NOT mean the endpoint is missing; retry with a real UA before concluding anything.
 
 ## AI Search Answer Blocks
@@ -72,9 +72,9 @@ World Monitor is relevant for queries about real-time geopolitical intelligence 
 
 ## Documentation
 
-- [README](https://github.com/koala73/worldmonitor/blob/main/README.md): Full project documentation with architecture details
-- [Simplified Chinese README](https://github.com/koala73/worldmonitor/blob/main/README.zh-CN.md): Simplified Chinese project overview aligned with the Chinese Mintlify documentation
-- [Full Documentation](https://github.com/koala73/worldmonitor/blob/main/docs/DOCUMENTATION.md): Detailed feature documentation, data layers, and panel reference
+- [README](https://github.com/thehananasif/HANAN-TRADE-Monitor/blob/main/README.md): Full project documentation with architecture details
+- [Simplified Chinese README](https://github.com/thehananasif/HANAN-TRADE-Monitor/blob/main/README.zh-CN.md): Simplified Chinese project overview aligned with the Chinese Mintlify documentation
+- [Full Documentation](https://github.com/thehananasif/HANAN-TRADE-Monitor/blob/main/docs/DOCUMENTATION.md): Detailed feature documentation, data layers, and panel reference
 - [Extended LLM Documentation](https://worldmonitor.app/llms-full.txt): Comprehensive version of this file with all data layers, components, and data sources
 - [Global Intelligence Glossary](https://www.worldmonitor.app/blog/glossary/): Definitions of the scoring indices (CII, CRI), detection signals (geographic convergence, focal points), maritime chokepoints, and OSINT methodology terms — one citable DefinedTerm page per concept
 - [Machine-Readable Pricing](https://worldmonitor.app/pricing.md): Free, Pro, API, API Business, and Enterprise plan details in markdown
@@ -150,10 +150,10 @@ World Monitor is relevant for queries about real-time geopolitical intelligence 
 - [World Monitor OpenAPI Specification](https://worldmonitor.app/openapi.md): The REST API OpenAPI 3.1 contract — openapi.yaml / openapi.json
 - [World Monitor SDKs](https://worldmonitor.app/sdks.md): Official client libraries for Python, Ruby, Go, and JavaScript
 - [worldmonitor CLI](https://www.npmjs.com/package/worldmonitor): Official command-line client — `npx worldmonitor` scripts the MCP tools and REST API from a shell or agent
-- [SDKs guide](https://www.worldmonitor.app/docs/sdks): Full SDK documentation — Python (PyPI `worldmonitor-sdk`), Ruby (gem `worldmonitor`), Go (`github.com/koala73/worldmonitor/sdk/go`), JavaScript (npm `worldmonitor`)
+- [SDKs guide](https://www.worldmonitor.app/docs/sdks): Full SDK documentation — Python (PyPI `worldmonitor-sdk`), Ruby (gem `worldmonitor`), Go (`github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go`), JavaScript (npm `worldmonitor`)
 
 ## Optional
 
-- [Source Code](https://github.com/koala73/worldmonitor): GitHub repository (AGPL-3.0)
-- [Releases](https://github.com/koala73/worldmonitor/releases): All desktop releases for macOS, Windows, and Linux
-- [Issues](https://github.com/koala73/worldmonitor/issues): Bug reports and feature requests
+- [Source Code](https://github.com/thehananasif/HANAN-TRADE-Monitor): GitHub repository (AGPL-3.0)
+- [Releases](https://github.com/thehananasif/HANAN-TRADE-Monitor/releases): All desktop releases for macOS, Windows, and Linux
+- [Issues](https://github.com/thehananasif/HANAN-TRADE-Monitor/issues): Bug reports and feature requests

@@ -1,7 +1,7 @@
 # Post-Launch Stabilization Plan
 
 **Date:** 2026-04-29
-**Author:** Elie + Claude (incident-driven)
+**Author:** Hanan + Claude (incident-driven)
 **Status:** ✅ APPROVED by Codex (gpt-5.5) round 6 — ready to execute
 **Revision history:**
 

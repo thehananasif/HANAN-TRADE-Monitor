@@ -13,7 +13,7 @@ import { maskEmail } from '../src/services/checkout-banner-state.ts';
 
 describe('maskEmail', () => {
   it('masks a typical address as first-char + *** + @domain', () => {
-    assert.equal(maskEmail('elie@anghami.com'), 'e***@anghami.com');
+    assert.equal(maskEmail('hanan@example.com'), 'h***@example.com');
   });
 
   it('handles a single-letter local part safely', () => {
@@ -35,7 +35,7 @@ describe('maskEmail', () => {
   });
 
   it('trims surrounding whitespace before masking', () => {
-    assert.equal(maskEmail('  elie@anghami.com  '), 'e***@anghami.com');
+    assert.equal(maskEmail('  hanan@example.com  '), 'h***@example.com');
   });
 
   it('handles IDN-style domains by pass-through', () => {

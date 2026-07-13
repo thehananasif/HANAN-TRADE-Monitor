@@ -52,7 +52,7 @@ function envelope(): BriefEnvelope {
     version: BRIEF_ENVELOPE_VERSION,
     issuedAt: 1_700_000_000_000,
     data: {
-      user: { name: 'Elie', tz: 'UTC' },
+      user: { name: 'Hanan', tz: 'UTC' },
       issue: '27.05',
       date: '2026-05-27',
       dateLong: '27 May 2026',

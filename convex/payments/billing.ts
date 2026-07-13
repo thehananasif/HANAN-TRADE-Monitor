@@ -2550,7 +2550,7 @@ export const internalGetCustomerPortalUrl = internalAction({
  * server-side during checkout creation; a leaked bare UUID is not sufficient
  * ownership proof.
  *
- * @see https://github.com/koala73/worldmonitor/issues/2078
+ * @see https://github.com/thehananasif/HANAN-TRADE-Monitor/issues/2078
  */
 export const claimSubscription = mutation({
   args: { anonId: v.string(), claimToken: v.optional(v.string()) },

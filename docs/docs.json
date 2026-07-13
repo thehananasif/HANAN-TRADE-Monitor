@@ -16,7 +16,7 @@
       "og:type": "website",
       "og:locale": "en_US",
       "twitter:card": "summary_large_image",
-      "twitter:site": "@worldmonitorai",
+      "twitter:site": "@HANANTRADE",
       "twitter:image": "https://www.worldmonitor.app/favico/og-image.png"
     }
   },
@@ -41,7 +41,7 @@
       },
       {
         "label": "GitHub",
-        "href": "https://github.com/koala73/worldmonitor"
+        "href": "https://github.com/thehananasif/HANAN-TRADE-Monitor"
       }
     ],
     "primary": {
@@ -454,7 +454,7 @@
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/koala73/worldmonitor"
+              "href": "https://github.com/thehananasif/HANAN-TRADE-Monitor"
             }
           ],
           "primary": {
@@ -465,9 +465,9 @@
         },
         "footer": {
           "socials": {
-            "github": "https://github.com/koala73/worldmonitor",
+            "github": "https://github.com/thehananasif/HANAN-TRADE-Monitor",
             "discord": "https://discord.gg/re63kWKxaz",
-            "x": "https://x.com/worldmonitorai"
+            "x": "https://www.youtube.com/@HANANTRADE"
           },
           "links": [
             {
@@ -492,7 +492,7 @@
               "items": [
                 {
                   "label": "GitHub",
-                  "href": "https://github.com/koala73/worldmonitor"
+                  "href": "https://github.com/thehananasif/HANAN-TRADE-Monitor"
                 },
                 {
                   "label": "Discord",
@@ -500,7 +500,7 @@
                 },
                 {
                   "label": "X",
-                  "href": "https://x.com/worldmonitorai"
+                  "href": "https://www.youtube.com/@HANANTRADE"
                 },
                 {
                   "label": "状态",
@@ -895,9 +895,9 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/koala73/worldmonitor",
+      "github": "https://github.com/thehananasif/HANAN-TRADE-Monitor",
       "discord": "https://discord.gg/re63kWKxaz",
-      "x": "https://x.com/worldmonitorai"
+      "x": "https://www.youtube.com/@HANANTRADE"
     },
     "links": [
       {
@@ -922,7 +922,7 @@
         "items": [
           {
             "label": "GitHub",
-            "href": "https://github.com/koala73/worldmonitor"
+            "href": "https://github.com/thehananasif/HANAN-TRADE-Monitor"
           },
           {
             "label": "Discord",
@@ -930,7 +930,7 @@
           },
           {
             "label": "X",
-            "href": "https://x.com/worldmonitorai"
+            "href": "https://www.youtube.com/@HANANTRADE"
           },
           {
             "label": "Status",

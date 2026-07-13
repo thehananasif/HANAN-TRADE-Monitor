@@ -23,7 +23,7 @@
  * to the real Clerk user ID. The anon ID and server-issued claim token
  * should be read from localStorage before they are cleared.
  *
- * @see https://github.com/koala73/worldmonitor/issues/2078
+ * @see https://github.com/thehananasif/HANAN-TRADE-Monitor/issues/2078
  */
 
 import { getCurrentClerkUser } from './clerk';

@@ -68,4 +68,4 @@ World Monitor uses public or documented feeds including ACLED, UCDP, AISStream, 
 - LLM briefing: https://www.worldmonitor.app/llms.txt
 - Full LLM briefing: https://www.worldmonitor.app/llms-full.txt
 - Pricing markdown: https://www.worldmonitor.app/pricing.md
-- Source code: https://github.com/koala73/worldmonitor
+- Source code: https://github.com/thehananasif/HANAN-TRADE-Monitor

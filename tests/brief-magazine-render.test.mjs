@@ -60,7 +60,7 @@ function thread(tag, teaser) {
  */
 function envelope(overrides = {}) {
   const data = {
-    user: { name: 'Elie', tz: 'UTC' },
+    user: { name: 'Hanan', tz: 'UTC' },
     issue: '17.04',
     date: '2026-04-17',
     dateLong: '17 April 2026',

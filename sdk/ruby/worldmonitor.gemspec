@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.metadata = {
     "homepage_uri" => "https://worldmonitor.app",
     "documentation_uri" => "https://www.worldmonitor.app/docs/sdks",
-    "source_code_uri" => "https://github.com/koala73/worldmonitor/tree/main/sdk/ruby",
-    "bug_tracker_uri" => "https://github.com/koala73/worldmonitor/issues",
+    "source_code_uri" => "https://github.com/thehananasif/HANAN-TRADE-Monitor/tree/main/sdk/ruby",
+    "bug_tracker_uri" => "https://github.com/thehananasif/HANAN-TRADE-Monitor/issues",
     "rubygems_mfa_required" => "true",
   }
 

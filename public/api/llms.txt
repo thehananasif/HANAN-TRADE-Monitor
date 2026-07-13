@@ -12,7 +12,7 @@ This is the API-section companion to the site-wide briefing at https://worldmoni
 - **Docs MCP server:** `https://www.worldmonitor.app/docs/mcp` — Streamable HTTP, public (no auth); search-and-retrieval tools over the developer documentation. Route "how do I…" questions here; route live-data calls to the product MCP above.
 - **REST API:** base `https://api.worldmonitor.app`. OpenAPI 3.1 spec at https://worldmonitor.app/openapi.yaml (JSON: https://worldmonitor.app/openapi.json). Machine-readable API catalog (RFC 9727): https://worldmonitor.app/.well-known/api-catalog
 - **CLI:** `npx worldmonitor tools` lists every tool with no key; `npm install -g worldmonitor` installs the `worldmonitor` command — a zero-dependency, MCP-first client for the tools and REST API above. https://www.npmjs.com/package/worldmonitor
-- **SDKs:** official zero-dependency client libraries mirroring the CLI — Python `pip install worldmonitor-sdk` (https://pypi.org/project/worldmonitor-sdk/), Ruby `gem install worldmonitor` (https://rubygems.org/gems/worldmonitor), Go `go get github.com/koala73/worldmonitor/sdk/go` (https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go), JavaScript (npm `worldmonitor`). Guide: https://www.worldmonitor.app/docs/sdks
+- **SDKs:** official zero-dependency client libraries mirroring the CLI — Python `pip install worldmonitor-sdk` (https://pypi.org/project/worldmonitor-sdk/), Ruby `gem install worldmonitor` (https://rubygems.org/gems/worldmonitor), Go `go get github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go` (https://pkg.go.dev/github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go), JavaScript (npm `worldmonitor`). Guide: https://www.worldmonitor.app/docs/sdks
 - **Agent Skills:** discovery manifest at https://worldmonitor.app/.well-known/agent-skills/index.json
 
 ## Authentication
@@ -55,4 +55,4 @@ This is the API-section companion to the site-wide briefing at https://worldmoni
 - [Site-wide llms.txt](https://worldmonitor.app/llms.txt): Full platform briefing and agent guidance
 - [Extended llms-full.txt](https://worldmonitor.app/llms-full.txt): All data layers, components, and data sources
 - [Human API docs](https://worldmonitor.app/docs/documentation): Mintlify documentation site
-- [Source Code](https://github.com/koala73/worldmonitor): GitHub repository (AGPL-3.0)
+- [Source Code](https://github.com/thehananasif/HANAN-TRADE-Monitor): GitHub repository (AGPL-3.0)

@@ -56,11 +56,11 @@ test('isAllowedOrigin accepts Vercel preview deploys under the eliewm team scope
   assert.equal(isAllowedOrigin('https://worldmonitor-git-feat-x-eliewm.vercel.app'), true);
   assert.equal(isAllowedOrigin('https://worldmonitor-r6q9o-eliewm.vercel.app'), true);
   // Tight allowlist: a foreign team scope, a non-worldmonitor app, and the
-  // retired personal scope (worldmonitor-*-elie-<hash>, migration complete)
+  // retired personal scope (worldmonitor-*-user-<hash>, migration complete)
   // must all stay rejected. Never a bare *.vercel.app.
   assert.equal(isAllowedOrigin('https://worldmonitor-feat-x-attacker.vercel.app'), false);
   assert.equal(isAllowedOrigin('https://some-other-app-eliewm.vercel.app'), false);
-  assert.equal(isAllowedOrigin('https://worldmonitor-abc-elie-habib.vercel.app'), false);
+  assert.equal(isAllowedOrigin('https://worldmonitor-abc-hanan-trade.vercel.app'), false);
 });
 
 test('isAllowedOrigin accepts Tauri desktop runtime origins', () => {

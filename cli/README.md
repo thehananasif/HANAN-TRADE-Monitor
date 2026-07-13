@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/worldmonitor?logo=npm)](https://www.npmjs.com/package/worldmonitor)
 [![npm downloads](https://img.shields.io/npm/dm/worldmonitor)](https://www.npmjs.com/package/worldmonitor)
-[![license](https://img.shields.io/npm/l/worldmonitor)](https://github.com/koala73/worldmonitor/blob/main/cli/LICENSE)
+[![license](https://img.shields.io/npm/l/worldmonitor)](https://github.com/thehananasif/HANAN-TRADE-Monitor/blob/main/cli/LICENSE)
 
 Official command-line client for the [World Monitor](https://worldmonitor.app)
 global-intelligence API. Script country briefs, risk scores, and
@@ -105,4 +105,4 @@ const code = await run(['risk', 'IR'], { env: process.env });
 ## License
 
 MIT-licensed thin client (the World Monitor platform itself remains AGPL-3.0). Part of the
-[World Monitor](https://github.com/koala73/worldmonitor) project.
+[World Monitor](https://github.com/thehananasif/HANAN-TRADE-Monitor) project.

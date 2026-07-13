@@ -16,14 +16,14 @@ controls, and have parity tests where drift would be dangerous.
 - Audit branch:
   `codex/final-doc-alignment-audit-20260608`
 - Audit worktree:
-  `/Users/eliehabib/tmp/worldmonitor-final-doc-alignment-20260608`
+  `/Users/HANANTRADE/tmp/worldmonitor-final-doc-alignment-20260608`
 - Base commit:
   `49fef27b07ae09940a7e2fbf09426a27cac27405`
 - Base source:
   `origin/main`, fetched and audited after the prior documentation-fix PRs were
   merged.
 - Original checkout:
-  `/Users/eliehabib/Documents/GitHub/worldmonitor` was dirty and was not
+  `/Users/HANANTRADE/Documents/GitHub/worldmonitor` was dirty and was not
   modified by this audit.
 
 Merged PRs verified on `main` before this audit:

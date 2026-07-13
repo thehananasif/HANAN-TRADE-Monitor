@@ -65,7 +65,7 @@ describe('Go SDK module (sdk/go → pkg.go.dev)', () => {
   const source = read('sdk/go/worldmonitor.go');
 
   it('is the sdk/go submodule of this repository', () => {
-    assert.match(gomod, /^module github\.com\/koala73\/worldmonitor\/sdk\/go$/m);
+    assert.match(gomod, /^module github\.com\/thehananasif\/worldmonitor\/sdk\/go$/m);
   });
 
   it('declares the Version constant the publish workflow checks against the tag', () => {
@@ -108,14 +108,14 @@ describe('SDK discovery surfaces', () => {
     const llms = read('public/llms.txt');
     assert.match(llms, /pypi\.org\/project\/worldmonitor-sdk/);
     assert.match(llms, /rubygems\.org\/gems\/worldmonitor/);
-    assert.match(llms, /pkg\.go\.dev\/github\.com\/koala73\/worldmonitor\/sdk\/go/);
+    assert.match(llms, /pkg\.go\.dev\/github\.com\/thehananasif\/worldmonitor\/sdk\/go/);
   });
 
   it('api/llms.txt advertises the SDK surface', () => {
     const llms = read('public/api/llms.txt');
     assert.match(llms, /pip install worldmonitor-sdk/);
     assert.match(llms, /gem install worldmonitor/);
-    assert.match(llms, /go get github\.com\/koala73\/worldmonitor\/sdk\/go/);
+    assert.match(llms, /go get github\.com\/thehananasif\/worldmonitor\/sdk\/go/);
   });
 
   it('the docs site has an SDKs page wired into navigation', () => {

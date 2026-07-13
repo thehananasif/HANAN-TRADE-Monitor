@@ -585,7 +585,7 @@ One-time transactional send to `userId`s in the migrated set who have a verified
 >
 > Sorry for the inconvenience. We'd rather over-correct than continue training your inbox to hit "Mark as spam."
 >
-> — Elie, WorldMonitor
+> — Hanan, WorldMonitor
 
 ## 5. Onboarding / tooltip copy
 

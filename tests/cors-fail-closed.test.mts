@@ -75,7 +75,7 @@ describe('cors helper', () => {
   });
 });
 
-// The Vercel project moved from the personal scope (worldmonitor-*-elie-<hash>)
+// The Vercel project moved from the personal scope (worldmonitor-*-user-<hash>)
 // to the "eliewm" team scope. Browsers send Origin on the POST to
 // /api/wm-session, so a stale allowlist 403s every preview deployment and the
 // anonymous session can never be minted (dashboard + /welcome teasers stay dark).
@@ -97,7 +97,7 @@ describe('isAllowedOrigin — Vercel preview allowlist (eliewm team scope)', () 
     ['foreign team scope', 'https://worldmonitor-git-feature-attacker.vercel.app'],
     ['bare worldmonitor vercel.app (no scope segment)', 'https://worldmonitor.vercel.app'],
     ['suffix-spoofed eliewm origin', 'https://worldmonitor-git-feature-eliewm.vercel.app.evil.com'],
-    ['dead personal-scope preview (post-migration)', 'https://worldmonitor-feature-elie-abc123.vercel.app'],
+    ['dead personal-scope preview (post-migration)', 'https://worldmonitor-feature-user-abc123.vercel.app'],
   ];
 
   for (const [label, origin] of ALLOWED) {
@@ -174,7 +174,7 @@ describe('CORS Worker superset invariant — edge allowlist ⊇ function allowli
     // no-op for them; included to document the boundary.
     'https://some-other-app-eliewm.vercel.app',
     'https://worldmonitor-git-feature-attacker.vercel.app',
-    'https://worldmonitor-feature-elie-abc123.vercel.app',
+    'https://worldmonitor-feature-user-abc123.vercel.app',
     'https://evil.com',
   ];
 

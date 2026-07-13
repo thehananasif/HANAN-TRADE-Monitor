@@ -89,4 +89,4 @@ still stale.
 
 ## Related Issues
 
-- [Issue #5288](https://github.com/koala73/worldmonitor/issues/5288)
+- [Issue #5288](https://github.com/thehananasif/HANAN-TRADE-Monitor/issues/5288)

@@ -7,7 +7,7 @@ Stdlib-only (zero dependencies), MCP-first: the same design as the official [`wo
 ## Install
 
 ```sh
-go get github.com/koala73/worldmonitor/sdk/go
+go get github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go
 ```
 
 ## Quickstart
@@ -19,7 +19,7 @@ import (
 	"context"
 	"fmt"
 
-	worldmonitor "github.com/koala73/worldmonitor/sdk/go"
+	worldmonitor "github.com/thehananasif/HANAN-TRADE-Monitor/sdk/go"
 )
 
 func main() {
@@ -73,4 +73,4 @@ Use `errors.As` to branch on them.
 | `MCPURL` | `WORLDMONITOR_MCP_URL` | `https://worldmonitor.app/mcp` |
 | `HTTPClient` | — | `http.Client` with a 30s timeout |
 
-The source lives in [`sdk/go/`](https://github.com/koala73/worldmonitor/tree/main/sdk/go) in the main repository and is versioned with `sdk/go/vX.Y.Z` tags. Docs: [worldmonitor.app/docs/sdks](https://www.worldmonitor.app/docs/sdks). License: MIT (thin client; the World Monitor platform itself remains AGPL-3.0).
+The source lives in [`sdk/go/`](https://github.com/thehananasif/HANAN-TRADE-Monitor/tree/main/sdk/go) in the main repository and is versioned with `sdk/go/vX.Y.Z` tags. Docs: [worldmonitor.app/docs/sdks](https://www.worldmonitor.app/docs/sdks). License: MIT (thin client; the World Monitor platform itself remains AGPL-3.0).
